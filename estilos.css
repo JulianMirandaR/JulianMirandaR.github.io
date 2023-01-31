@@ -1,0 +1,142 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+section {
+    height: 100vh;
+}
+
+section#principal{
+    background-image: url(/fondo1.webp) ;
+    background-repeat:no-repeat;
+    background-attachment:scroll;
+    display: flex;
+    flex-direction: column;/*uno debajo del otro*/
+    justify-content: center;
+    align-items: center;
+
+}
+
+/*cambiar tamanio de letras*/
+section#principal h1{
+    font-size: 3rem;
+    
+}
+
+section#principal h2{
+    font-size: 2rem;
+    text-align: center;
+}
+
+img#perfil{
+    border-radius: 1000px;
+    width: 200px;
+    height: 200px;
+}
+
+header{
+    position: sticky;
+    top: 0;
+    padding: 10px;
+    background-color: black;
+}
+
+nav ul{
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    cursor: pointer;
+
+}
+
+nav ul li{
+    margin: 0 20px;
+    padding: 5px 15px;
+    background-color: bisque;
+    border-radius: 10px;
+}
+section#sobremi{
+    background-color: bisque;
+    display: flex;
+    flex-direction: column;/*uno debajo del otro*/
+    justify-content: center;
+    align-items: center;
+}
+
+.texto{
+    margin: 0 40px;
+}
+
+p{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.lista-proyectos{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.detalles-proyecto{
+    border: 5px solid black;
+    width: 150px;
+    margin:10px;
+    border-radius: 17px;
+
+}
+
+.detalles-proyecto img{
+    width: 100%;
+    border-radius: 10px;
+}
+
+nav ul li a{
+    text-decoration: none;
+}
+
+section#contacto{
+    background: linear-gradient(black,bisque);
+}
+
+section#contacto h1{
+    color: azure;
+    text-align: center;
+}
+section#contacto h2{
+    color: azure;
+    text-align: center;
+}
+
+dl{
+    margin: 10px auto;
+    width: 300px;
+    padding: 10px 20px;
+    background-color: aliceblue;
+    border-radius: 30px;
+    border: 2px solid black;
+  
+}
+
+form{
+    margin: 10px auto; 
+    padding: 10px 20px;
+    background-color: aliceblue;
+    width: 250px;
+    border-radius: 30px;
+    border: 2px solid black;
+}
+
+form input{
+    width: 100%;
+    padding:1px 0;
+    background-color: rgb(247, 234, 218);
+    border: 1px solid black ;
+    border-radius: 2px;
+}
+
+form button{
+    background-color: bisque;
+    cursor: pointer;
+}
