@@ -25,6 +25,7 @@ section#principal{
     background-image: url(/fondo1.webp);
     background-repeat:no-repeat;
     background-size: 100%;
+    background-attachment:scroll;
     display: flex;
     flex-direction: column;/*uno debajo del otro*/
     justify-content: center;
