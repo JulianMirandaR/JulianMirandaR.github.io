@@ -24,8 +24,7 @@ nav ul li a:hover,nav ul li a:active{
 section#principal{
     background-image: url(/fondo1.webp);
     background-repeat:no-repeat;
-    background-size: 100%;
-    background-attachment:scroll;
+    background-size: cover;
     display: flex;
     flex-direction: column;/*uno debajo del otro*/
     justify-content: center;
